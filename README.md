@@ -36,8 +36,20 @@ Use your **first name** in the filename.
 
 ## How to Submit:
 
-1. Upload both files directly to this repo (use the **"Add file → Upload files"** button).
-2. Once both files are attached, scroll down and **click "Commit changes"**.
-3. Go to **Google Classroom** and mark the assignment as **Submitted**.
+1. Clone the repo to your computer:
+   ```bash
+   git clone [https://github.com/org-name/assignment-name-yourusername.git]
+   cd assignment-name-yourusername
+   ```
+2. Add your code to the repo folder.
+
+3. Commit and push:
+ ```bash
+git add .
+git commit -m "Finished my solution"
+git push origin main
+```
+
+4. Done! Your work is submitted.
 
 ---
